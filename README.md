@@ -1,5 +1,5 @@
 # Task Dashboard - Assignment 4
-
+**Author:** Hüma Berra Kolukısa - 230408046
 This is a Dynamic Task Dashboard built with vanilla JavaScript. The project demonstrates DOM manipulation, event handling, asynchronous JavaScript, ES6 classes, and immutability.
 
 ## File Organization
