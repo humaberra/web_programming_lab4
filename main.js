@@ -80,4 +80,11 @@ loadTasksBtn.addEventListener('click', async () => {
 
         // 6. Ekrana çizdir ve yükleniyor mesajını temizle
         renderTasks();
-        statusMessage.textContent =
+        statusMessage.textContent = '';
+
+    } catch (error) {
+        // Hata (Error Handling) durumu
+        statusMessage.textContent = 'Error loading tasks. Please try again.';
+        console.error('Fetch error:', error);
+    }
+});
